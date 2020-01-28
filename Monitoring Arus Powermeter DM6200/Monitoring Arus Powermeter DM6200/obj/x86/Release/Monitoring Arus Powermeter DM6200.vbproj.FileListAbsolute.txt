@@ -1,0 +1,3 @@
+D:\powermeter\powermeter\powermeter\obj\x86\Release\powermeter.exe
+D:\powermeter\powermeter\powermeter\obj\x86\Release\powermeter.xml
+D:\powermeter\powermeter\powermeter\obj\x86\Release\powermeter.pdb

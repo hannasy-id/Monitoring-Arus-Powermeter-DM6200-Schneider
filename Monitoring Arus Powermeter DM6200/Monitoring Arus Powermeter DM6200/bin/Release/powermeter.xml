@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+powermeter
+</name>
+</assembly>
+<members>
+<member name="M:WindowsApplication1.DataType.Boolean.ToArray(System.Byte[])">
+	<summary>
+ Phương thức chuyển đổi mảng dữ liệu kiểu byte thành mảng dữ liệu kiểu bool.
+ </summary>
+	<param name="value">Mảng giá trị kiểu byte</param>
+	<returns>Mảng giá trị kiểu bool</returns>
+</member><member name="M:WindowsApplication1.DataType.Boolean.ToByteArray(System.Boolean[])">
+	<summary>
+ Phương thức chuyển đổi mảng dữ liệu kiểu bool thành mảng dữ liệu kiểu byte.
+ </summary>
+	<param name="bits">Mảng giá trị kiểu bool</param>
+	<returns>Trả về mảng giá trị kiểu byte</returns>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WindowsApplication1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:WindowsApplication1.DataType.DWord.FromByteArray(System.Byte[])">
+	<summary>
+ Phương thức chuyển đổi mảng bytes thành DWord.
+ </summary>
+	<param name="bytes">Mảng bytes</param>
+	<returns>Giá trị kiểu DWord</returns>
+</member><member name="M:WindowsApplication1.DataType.DWord.FromBytes(System.Byte,System.Byte,System.Byte,System.Byte)">
+	<summary>
+ Phương thức chuyển đổi mảng bytes thành DWord.
+ </summary>
+	<param name="param1">byte thứ 1</param>
+	<param name="param2">byte thứ 2</param>
+	<param name="param3">byte thứ 3</param>
+	<param name="param4">byte thứ 4</param>
+	<returns>Giá trị kiểu DWord</returns>
+</member><member name="M:WindowsApplication1.DataType.DWord.ToArray(System.Byte[])">
+	<summary>
+ Phương thức chuyển đổi mảng bytes thành DWord.
+ </summary>
+	<param name="bytes">Mảng bytes</param>
+	<returns>Giá trị kiểu DWord</returns>
+</member><member name="M:WindowsApplication1.DataType.DWord.ToByteArray(System.UInt32)">
+	<summary>
+ Phương thức chuyển đổi kiểu DWord thành mảng bytes.
+ </summary>
+	<param name="value">DWord cần chuyển</param>
+	<returns>Mảng bytes</returns>
+</member><member name="M:WindowsApplication1.DataType.DWord.ToByteArray(System.UInt32[])">
+	<summary>
+ Phương thức chuyển đổi kiểu DWord thành mảng bytes.
+ </summary>
+	<param name="value">DWord cần chuyển</param>
+	<returns>Mảng bytes</returns>
+</member><member name="M:WindowsApplication1.DataType.DInt.FromByteArray(System.Byte[])">
+	<summary>
+ Phương thức chuyển mảng kiểu byte thành kiểu DInt.
+ </summary>
+	<param name="bytes"></param>
+	<returns></returns>
+</member><member name="M:WindowsApplication1.DataType.DInt.ToByteArray(System.Int32)">
+	<summary>
+ Phương thức chuyển kiểu DInt thành mảng byte.
+ </summary>
+	<param name="value">Giá trị kiểu DInt</param>
+	<returns>Trả về mảng dữ liệu kiểu byte</returns>
+</member><member name="M:WindowsApplication1.DataType.DInt.ToByteArray(System.Int32[])">
+	<summary>
+ Phương thức chuyển mảng dữ liệu kiểu DInt thành mảng byte.
+ </summary>
+	<param name="value">Mảng giá trị kiểu DInt</param>
+	<returns>Trả về mảng dữ liệu kiểu byte</returns>
+</member><member name="M:WindowsApplication1.DataType.Word.FromByteArray(System.Byte[])">
+	<summary>
+ Phương thức chuyển đổi mảng bytes thành kiểu Word.
+ </summary>
+	<param name="bytes">Mảng byte cần chuyển đổi</param>
+	<returns>Trả về giá trị kiểu Word</returns>
+</member><member name="M:WindowsApplication1.DataType.Word.FromBytes(System.Byte,System.Byte)">
+	<summary>
+ Phương thức chuyển đổi mảng bytes thành kiểu Word.
+ </summary>
+	<param name="LoVal">Giá trị byte thấp</param>
+	<param name="HiVal">Giá trị byte cao</param>
+	<returns>Trả về giá trị kiểu Word</returns>
+</member><member name="M:WindowsApplication1.DataType.Word.ToByteArray(System.UInt16)">
+	<summary>
+ Phương thức chuyển đổi kiểu Word thành mảng bytes.
+ </summary>
+	<param name="value">Giá trị kiểu Word</param>
+	<returns>Trả về giá trị mảng kiểu byte</returns>
+</member><member name="M:WindowsApplication1.DataType.Word.ToByteArray(System.UInt16[])">
+	<summary>
+ Phương thức chuyển đổi mảng kiểu Word thành mảng bytes.
+ </summary>
+	<param name="value">Mảng kiểu Word</param>
+	<returns>Trả về mảng kiểu byte</returns>
+</member><member name="M:WindowsApplication1.DataType.Word.ToArray(System.Byte[])">
+	<summary>
+ Phương thức chuyển đổi kiểu mảng bytes thành mảng word.
+ </summary>
+	<param name="bytes">Giá trị mảng bytes</param>
+	<returns>Trả về giá trị mảng kiểu Word</returns>
+</member><member name="M:WindowsApplication1.DataType.Int.FromByteArray(System.Byte[])">
+	<summary>
+ Phương thức chuyển đổi mảng byte thành kiểu int.
+ </summary>
+	<param name="bytes">Mảng giá trị kiểu byte</param>
+	<returns>Trả về giá trị kiểu int</returns>
+</member><member name="M:WindowsApplication1.DataType.Int.FromBytes(System.Byte,System.Byte)">
+	<summary>
+ Phương thức chuyển đổi 2 byte thành kiểu int.
+ </summary>
+	<param name="LoVal">Giá trị byte thấp</param>
+	<param name="HiVal">Giá trị byte cao</param>
+	<returns>Trả về giá trị kiểu int</returns>
+</member><member name="M:WindowsApplication1.DataType.Int.ToByteArray(System.Int16)">
+	<summary>
+ Phương thức chuyển kiểu Int thành mảng kiểu byte.
+ </summary>
+	<param name="value">Giá trị kiểu int</param>
+	<returns>Trả về mảng giá trị kiểu byte</returns>
+</member><member name="M:WindowsApplication1.DataType.Int.ToByteArray(System.Int16[])">
+	<summary>
+ Phương thức chuyển mảng kiểu Int thành mảng kiểu byte.
+ </summary>
+	<param name="value">Mảng giá trị kiểu Int</param>
+	<returns>Trả về mảng giá trị kiểu byte</returns>
+</member><member name="M:WindowsApplication1.DataType.Real.FromByteArray(System.Byte[])">
+	<summary>
+ Phương thức chuyển mảng dữ liệu kiểu byte thành kiểu dữ liệu float. 
+ </summary>
+	<param name="bytes"></param>
+	<returns>Trả về giá trị kiểu float.</returns>
+</member><member name="M:WindowsApplication1.DataType.Real.FromDWord(System.Int32)">
+	<summary>
+ Phương thức chuyển đổi dữ liệu từ kiểu DWord thành kiểu dữ liệu float.
+ </summary>
+	<param name="value">Giá trị kiểu DWord</param>
+	<returns>Trả về giá trị kiểu float.</returns>
+</member><member name="M:WindowsApplication1.DataType.Real.FromDWord(System.UInt32)">
+	<summary>
+ Phương thức chuyển đổi dữ liệu từ kiểu DWord thành kiểu dữ liệu float.
+ </summary>
+	<param name="value">Giá trị kiểu DWord</param>
+	<returns>Trả về giá trị kiểu float.</returns>
+</member><member name="M:WindowsApplication1.DataType.Real.ToByteArray(System.Single)">
+	<summary>
+ Phương thức chuyển đổi kiểu dữ liệu float thành mảng dữ liệu kiểu byte.
+ </summary>
+	<param name="value">Giá trị kiểu float</param>
+	<returns>Trả về mảng giá trị kiểu byte</returns>
+</member><member name="M:WindowsApplication1.DataType.Real.ToByteArray(System.Single[])">
+	<summary>
+ Phương thức chuyển đổi mảng dữ liệu kiểu float thành mảng dữ liệu kiểu byte.
+ </summary>
+	<param name="value">Mảng giá trị kiểu float</param>
+	<returns>Trả về mảng giá trị kiểu byte</returns>
+</member><member name="M:WindowsApplication1.DataType.Real.ToArrayInverse(System.Byte[])">
+	<summary>
+ Phương thức chuyển đổi mảng dữ liệu kiểu byte thành mảng dữ liệu kiểu float.
+ </summary>
+	<param name="bytes">Mảng giá trị kiểu byte</param>
+	<returns>Trả về mảng giá trị kiểu float</returns>
+</member><member name="M:WindowsApplication1.DataType.Real.ValToBinString(System.Byte)">
+	<summary>
+ Phương thức chuyển byte thành chuỗi binary.
+ </summary>
+	<param name="value">Giá trị kiểu byte</param>
+	<returns>Trả về chuỗi binary</returns>
+</member><member name="M:WindowsApplication1.DataType.Real.BinStringToByte(System.String)">
+	<summary>
+ Phương thức chuyển đổi chuỗi binary thành kiểu byte
+ </summary>
+	<param name="txt">Giá trị là 1 chuỗi binary</param>
+	<returns>Trả về giá trị kiểu byte</returns>
+</member>
+</members>
+</doc>

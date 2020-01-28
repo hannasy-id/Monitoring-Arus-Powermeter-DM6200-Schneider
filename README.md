@@ -1,5 +1,5 @@
 # Monitoring-Arus-Powermeter-DM6200-Schneider
-Program untuk memonitoring arus motor 3 phase mixer beton dengan menggunakan powermeter DM6200 Schneider.
+Program untuk memonitoring arus motor 3 phase mixer beton menggunakan powermeter DM6200 Schneider.
 Komunikasi menggunakan RS485 dengan protokol Modbus RTU.
 Dibuat menggunakan Visual Basic 2010.
 

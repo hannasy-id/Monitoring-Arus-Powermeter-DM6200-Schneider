@@ -1,7 +1,11 @@
 # Monitoring-Arus-Powermeter-DM6200-Schneider
-Program untuk memonitoring arus motor 3 phase mixer beton menggunakan powermeter DM6200 Schneider.
-Komunikasi menggunakan RS485 dengan protokol Modbus RTU.
+Program untuk memonitoring arus motor 3 phase mixer beton menggunakan powermeter DM6200 Schneider,
+Komunikasi menggunakan RS485 dengan protokol Modbus RTU,
 Dibuat menggunakan Visual Basic 2010.
+
+Register yang dipakai adalah register A1 dan A3:
+- arus 1 => A1, dengan alamat = 43924 - 43925
+- arus 3 => A3, dengan alamat = 43957 - 43958
 
 Referensi:
 - http://pusdiklatmigas.esdm.go.id/file/t5-_Medbus_Protokol_---_Nurpadmi.pdf

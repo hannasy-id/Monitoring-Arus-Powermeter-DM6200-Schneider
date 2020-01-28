@@ -1,1 +1,1 @@
-# Monitoring-Arus-Powermeter-DM6200-Schneidr
+# Monitoring-Arus-Powermeter-DM6200-Schneider

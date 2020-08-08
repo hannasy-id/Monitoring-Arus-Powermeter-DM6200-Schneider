@@ -12,4 +12,5 @@ Referensi:
 - http://pusdiklatmigas.esdm.go.id/file/t5-_Medbus_Protokol_---_Nurpadmi.pdf
 - https://www.youtube.com/watch?v=DRdkO6NYQpY&list=PLRCEJ0bGSS1aWsVlwpEthiufoux0eGxx9&index=4
 - https://www.youtube.com/watch?v=8afbTaA-gOQ
+- https://www.youtube.com/watch?v=LXF-wcoeT0o
 - http://howtostartprogramming.com/vb-net/vb-net-tutorial-53-multithreading/
